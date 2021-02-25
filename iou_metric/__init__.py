@@ -11,7 +11,7 @@ def getColorList():
     
     # road
     lower_white = np.array([0, 0, 250])
-    upper_white = np.array([0, 0, 255])
+    upper_white = np.array([180, 15, 255])
     lower_orange = np.array([11, 43, 46])
     upper_orange = np.array([25, 255, 255])
     dict['road'] = [(lower_white, upper_white), (lower_orange, upper_orange)]
