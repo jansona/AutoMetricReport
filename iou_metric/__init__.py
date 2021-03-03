@@ -10,7 +10,7 @@ def getColorList():
     dict = collections.defaultdict(list)
     
     # road
-    lower_white = np.array([0, 0, 250])
+    lower_white = np.array([0, 0, 245])
     upper_white = np.array([180, 15, 255])
     lower_orange = np.array([11, 43, 46])
     upper_orange = np.array([25, 255, 255])
